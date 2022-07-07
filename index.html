@@ -2,6 +2,10 @@
 <html lang="en">
 
 <head>
+    <!-- Linking Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
@@ -12,28 +16,84 @@
 
 <body>
     <header>
-        <h1> Keith Ho </h1>
+        <!-- Navbar from Bootstrap -->
 
-        <nav>
-            <img src="Pictures/Facebook.png" alt="Facebook" style="width:40px;height:40px;">
-            <img src="Pictures/Github.png" alt="Github" style="width:40px;height:40px;">
-            <img src="Pictures/LinkedIn.png" alt="LinkedIn" style="width:40px;height:40px;">
-        </nav>    
+        <!-- Whole bar -->
+        <nav class="navbar navbar-expand-lg bg-light">
+
+            <!-- Inside the Bar -->
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"> Keith Ho </a>
+
+              <!-- Hamburger menu if window is minimized -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> About Me </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"> Experience </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled"> Extracurriculars </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/KeithDHo/"> 
+                      <img src="Pictures/Github.png" alt="Github" width="40px" height="40px">
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/keithdho/">
+                      <img src="Pictures/LinkedIn.png" alt="LinkedIn" width="40px" height="40px">
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        
+        <!-- Facebook Icon Link
+        <a href="https://www.facebook.com/keith.ho.927/"> 
+            <img src="Pictures/Facebook.png" alt="Facebook" width="40px" height="40px">
+        </a>
+
+        GitHub Icon Link
+        <a href="https://github.com/KeithDHo/">
+            <img src="Pictures/Github.png" alt="Github" width="40px" height="40px">
+        </a>
+
+        LinkedIn Icon Link
+        <a href="https://www.linkedin.com/in/keithdho/">
+            <img src="Pictures/LinkedIn.png" alt="LinkedIn" width="40px" height="40px">
+        </a> -->
+         
 
     </header>
 
     <div class="About_Me">
+        <h4> About Me </h4>
+        <img src="Pictures/Me.jpg" height="400">
         <p>
             Hello, my name is Keith and I recently graduated from UC San Diego with a major in Mathematics-Computer Science and a minor in Cognitive Science. My current career interests are currently in the tech field including software engineering, user interface design, quality assurance testing, and data science. I have a strong interest in building products that can help and impact my community. Aside from my career interests, I like to spend my free time cooking, baking, and playing video games. 
         </p>
     </div>
 
     <div class="Experience">
+        <h4> Experience </h4>
         
     </div>
 
     <div class="Extracurriculars">
-
+        <h4> Extracurriculars </h4> 
     </div>
 
 </body>
