@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+}
+
+h3 {
+    padding: 10px;
+}
+
+.Portrait, .SelfIntro {
+    padding: 10px;
+    display: inline-block;
+}
+
+.Intro {
+    display: flex;
+    align-items: center;
+}
+
+.Experience {
+    display: inline-block;
+}
