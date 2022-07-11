@@ -6,6 +6,10 @@ h3 {
     padding: 10px;
 }
 
+.Header {
+    padding: 10px;
+}
+
 .Portrait, .SelfIntro {
     padding: 10px;
     display: inline-block;
@@ -18,4 +22,8 @@ h3 {
 
 .Experience {
     display: inline-block;
+}
+
+.Github {
+    filter: brightness(0) invert(1);
 }
