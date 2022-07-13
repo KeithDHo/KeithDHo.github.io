@@ -1,5 +1,7 @@
 body {
-    background-color: white;
+    background-image: url("Pictures/Background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h3 {
@@ -10,9 +12,18 @@ h3 {
     padding: 10px;
 }
 
+.Portrait {
+    height: 500px;
+    border-radius: 30px;
+}
+
 .Portrait, .SelfIntro {
     padding: 10px;
     display: inline-block;
+}
+
+.SelfIntro {
+    font-size: 22px;
 }
 
 .Intro {

@@ -1,5 +1,16 @@
-.Header, .Experience {
+body {
+    background-image: url("Pictures/Background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Header {
     padding: 10px;
+}
+
+.Experience {
+    padding: 0px 50px 50px 110px;
+    min-width: 0px;
 }
 
 .Github {
@@ -23,9 +34,9 @@
     top: 150px;
 }
 
-.DepopDescription {
-    text-align: initial;
-}
+/* .BulletImg {
+    height: 30%;
+} */
 
 .StockImg {
     position: absolute;
