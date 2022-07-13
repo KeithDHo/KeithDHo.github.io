@@ -23,11 +23,17 @@
     top: 150px;
 }
 
-.card {
-    justify-self: center;
-}
-
 .DepopDescription {
     text-align: initial;
+}
+
+.StockImg {
+    position: absolute;
+    top: 30px;
+}
+
+.StockText {
+    position: absolute;
+    top: 200px;
 }
 
