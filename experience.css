@@ -13,6 +13,16 @@
     row-gap: 50px;
 }
 
+.HCLImg {
+    position: absolute;
+    top: 30px;
+}
+
+.HCLText {
+    position: absolute;
+    top: 150px;
+}
+
 .card {
     justify-self: center;
 }
