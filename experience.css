@@ -9,20 +9,36 @@ body {
     padding: 10px;
 }
 
-.Experience {
-    padding: 0px 50px 50px 110px;
-    min-width: 0px;
-}
-
 .Github {
     filter: brightness(0) invert(1);
+}
+
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
 }
 
 .Experience {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fit, 30em); */
     text-align: center;
-    row-gap: 50px;
+    row-gap: 10px;
+    column-gap: 10px;
+    
+}
+
+@media only screen and (max-width: 1060px) and (min-width: 750px) {
+    .Experience {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 749px) and (min-width: 0px) {
+    .Experience {
+        grid-template-columns: 1fr;
+    }
 }
 
 .HCLImg {
