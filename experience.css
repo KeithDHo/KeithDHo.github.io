@@ -2,6 +2,7 @@ body {
     background-image: url("Pictures/Background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .Header {

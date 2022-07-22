@@ -2,6 +2,7 @@ body {
     background-image: url("Pictures/Background.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 h3 {
@@ -13,13 +14,16 @@ h3 {
 }
 
 .Portrait {
-    height: 500px;
+    max-height: 1000px !important;
+    height: auto;
     border-radius: 30px;
+    max-width: 100%;
 }
 
 .Portrait, .SelfIntro {
     padding: 10px;
-    display: inline-block;
+    /* display: inline-block; */
+    max-width: 100%;
 }
 
 .SelfIntro {
@@ -29,6 +33,15 @@ h3 {
 .Intro {
     display: flex;
     align-items: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media only screen and (max-width: 1100px) {
+    .Intro {
+        grid-template-columns: 1fr;
+    }
 }
 
 .Experience {
